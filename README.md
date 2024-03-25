@@ -14,26 +14,15 @@ _Du kan ta bort all text som finns sedan tidigare_.
 - I de fall detta efterfrågas, dela upp delar av ditt svar i för- och nackdelar. Dina för- respektive nackdelar skall vara i form av punktlistor med kortare stycken (3-4 meningar).
 
 Programkod ska se ut som exemplet nedan. Koden måste vara korrekt indenterad då den blir lättare att läsa vilket gör det lättare att hitta syntaktiska fel.
-Hej hej
+
 ```
-function errorCallback(error) {
-    switch(error.code) {
-        case error.PERMISSION_DENIED:
-            // Geolocation API stöds inte, gör något
-            break;
-        case error.POSITION_UNAVAILABLE:
-            // Misslyckat positionsanrop, gör något
-            break;
-        case error.UNKNOWN_ERROR:
-            // Okänt fel, gör något
-            break;
-    }
-}
+  <color name="colorPrimary">#FA8072</color> -ändrade färger från grön till salmon
+      <string name="app_name">Gorlak</string> -ändrade namnet till Gorlak
 ```
 
 Bilder läggs i samma mapp som markdown-filen.
 
-![](android.png)
+![img.png](img.png)
 
 Läs gärna:
 
